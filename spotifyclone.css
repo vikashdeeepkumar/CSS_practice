@@ -1,0 +1,235 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.919);
+    color: aliceblue;
+    margin: 0;
+    overflow: hidden;
+}
+.maincontent{
+    overflow: scroll;
+}
+.main{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+}
+
+.slidbar{
+    background-color: rgb(0, 0, 0);
+    width: 380px;
+    border-radius: 1rem;
+}
+.nav-option a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.nav-option i{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.navtwo{
+    background-color:#1212126f;
+    height: 100vh;
+    border-radius: 1rem;
+    margin-right: 15px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color:#1212126f;
+    margin:15px;
+    margin-left: 0px;
+}
+.nav-option{
+    line-height: 50px;
+    opacity: 0.5;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.lib{
+    font-size: 24px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    opacity: 0.5;
+    
+}
+.lib a{
+    text-decoration: none;
+    color: white;
+}
+.navtwo-option{
+    border-radius: 1rem;
+    background-color: #121121;
+    margin: 15px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    font-size: 14px;
+    padding: 0.5rem 0.75rem;
+    line-height: 8px;
+    opacity: 0.95;
+}
+.navtwo-option button{
+    border-radius: 20px;
+    width: 145px;
+    height: 34px;
+    padding: auto;
+    margin-top: 0px;
+}
+.navthree-option{
+    border-radius: 1rem;
+    background-color: #121121;
+    margin: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    font-size: 14px;
+    padding: 0.5rem 0.75rem;
+    line-height: 10px;
+    opacity: 0.95;
+}
+.navthree-option button{
+    border-radius: 20px;
+    width: 165px;
+    height: 34px;
+    padding: auto;
+    margin-top: 5px;
+}
+.navthree-option h2{
+    line-height: 28px;
+}
+.navthree-option h3{
+    line-height: 28px;
+}
+.navtwo-option h2{
+    line-height: 28px;
+}
+.navtwo-option h3{
+    line-height: 28px;
+}
+.maincontent{
+    background-color:#1212126f;
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 15px;
+}
+
+.stikynav{
+    background-color: #1212126f;
+    height: 70px;
+    width: 100%;
+     display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+.side {
+    position: relative;
+    left: 850px;
+}
+.side button{
+    border-radius: 20px;
+    width: 145px;
+    height: 34px;
+    padding: auto;
+    margin-top: 0px;   
+}
+.side i{
+    width: 30px;
+    position: relative;
+    left: 10px;
+    justify-content: space-between;
+}
+.arrow i{
+    position: relative;
+    left: 37px;
+    top: 28px;
+    justify-content: space-between;
+    width: 15px;
+    font-size: 20px;
+}
+
+.cardrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:20px;
+}
+.card-a{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.373);
+    height: 265px;
+    width: 200px;
+    margin: 10px;
+}
+.card-a:hover{
+    background-color:#1212126f;
+}
+.card-a img{
+    height: 60%;
+    width: 100%;
+}
+.card-a h3{
+    position: relative;
+    top: 0px;
+}
+.card-a h5{
+    position: relative;
+    top: -9px;
+    opacity: 0.60;
+    width: 100%;
+}
+.Musicplayer{
+background-color: rgb(0, 0, 0);
+height: 58px;
+position: fixed;
+bottom: 0px;
+left: 0px;
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+.album{
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+.player{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.player-controler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.controler{
+    width: 30%;
+}
+.player-controler i{
+    margin-left: 40px;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+.player-shows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.player-controler i:hover{
+    opacity: 1;
+}

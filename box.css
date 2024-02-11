@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 800px;
+    color: gray;
+    background-color: antiquewhite;
+    border-width: 5px;
+    border-style: dashed;
+    border: color black;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+h1{
+    height: 200px;
+    width: 700px;
+    color: rgb(188, 129, 129);
+    border: 3px dotted red;
+    border-left-color: black;
+    border-radius: 20px;
+}
+button{
+    background-color: aquamarine;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+

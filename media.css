@@ -1,0 +1,18 @@
+div{
+    background-color: yellow;
+    border: 2px solid black;
+
+}
+h3{
+    text-align: center;
+}
+@media (min-width:400px){
+    div{
+        background-color: blue;
+    }
+}
+@media (orientation:landscape){
+    div{
+        background-color: bisque;
+    }
+}

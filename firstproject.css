@@ -1,0 +1,71 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-image: url(wesley-tingey-0IgiiTy0g1I-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.buttom{
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+}
+.menu{
+background-color: rgb(161, 102, 47, 0.6);
+width: 300px;
+height: 100vh;
+}
+.logo{
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+.logo a{
+    position: absolute;
+    left: 30px;
+    top: 13px;
+    text-decoration: none;
+    font-size: 40px;
+    color: 	#ada7a7;
+}
+.menul{
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 100%;
+    top: 40px;
+    height: 100%;
+    font-size: 26px;
+    margin-top: 50px;
+
+
+}
+.close{
+    color:	#a09898;
+    position: absolute;
+    left: 260px;
+    top: 30px;
+    cursor: pointer;
+}
+.menul li{
+margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+
+}
+#check:checked ~.main{
+    left: -300;
+
+}

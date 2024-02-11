@@ -1,0 +1,53 @@
+*{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#login{
+    background-color: aqua;
+    color: yellow;
+}
+.follow{
+    background-color:violet;
+}
+nav ul{
+    color: brown;
+    background-color: black;
+}
+p+h3{
+    text-decoration: underline;
+}
+ul>a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div>input{
+    background-color: aqua;
+}
+button[id="login"]{
+    background-color: blueviolet;
+}
+input[type="text"]{
+    color: blue;
+}
+button:hover{ 
+    background-color: black;
+    color: white;
+
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color: blueviolet;
+}
+input[type="radio"]:checked+label{
+    color:red
+}
+h3:nth-of-type(2n){
+    background-color:red;
+}
+h1::first-letter{
+    color:green
+}
+p::selection{
+    background-color: greenyellow;
+}

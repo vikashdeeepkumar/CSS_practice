@@ -1,0 +1,22 @@
+.container{
+    height: 600px;
+    width: 900px;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    row-gap: 10px;
+    column-gap: 15px;
+    gap: 10px 20px;
+    justify-items:center;
+    align-items:end;
+    
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    text-align: center;
+    border: 2px solid black;
+}

@@ -1,0 +1,11 @@
+div{
+    border: 2px solid black;
+    background-color: peru;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    display: inline-block;
+}
+#none{
+    display: none;
+}

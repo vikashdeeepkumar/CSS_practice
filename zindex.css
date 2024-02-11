@@ -1,0 +1,22 @@
+.one{
+    height: 100px ;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    top: 50px;
+
+}
+.two{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    position: relative;
+    z-index: 1;
+}
+.three{
+    height: 100px ;
+    width: 100px;
+    background-color: rgb(0, 255, 26);
+    margin-top: 10px;
+    
+}
